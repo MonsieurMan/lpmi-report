@@ -1,6 +1,6 @@
 import { ReportGenerationConfig } from "./generate-report";
 
 export const config: ReportGenerationConfig = {
-    inputFile: './doc/index.md',
+    inputFile: './report/index.md',
     outputFile: './out/report.pdf'
 };
