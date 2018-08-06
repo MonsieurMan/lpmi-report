@@ -7,14 +7,18 @@
   "author": "MrMan",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "nodemon --confif nodemon.json"
   },
   "devDependencies": {
     "markdown-pdf": "^9.0.0",
-    "typescript": "^3.0.1",
-    "ts-node": "^7.0.0"
+    "markdown-toc": "^1.2.0",
+    "nodemon": "^1.18.3",
+    "ts-node": "^7.0.0",
+    "typescript": "^3.0.1"
   },
   "dependencies": {
-    "@types/node": "^8.10.23"
+    "@types/node": "^8.10.23",
+    "@types/remarkable": "^1.7.0",
+    "remarkable": "^1.7.1"
   }
 }
