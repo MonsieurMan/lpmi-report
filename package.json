@@ -1,0 +1,20 @@
+{
+  "name": "end-report-lpmi",
+  "version": "1.0.0",
+  "description": "Rapport de fin d'alternance LPMI 2017 / 2018",
+  "main": "index.js",
+  "repository": "https://github.com/MonsieurMan/report",
+  "author": "MrMan",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "markdown-pdf": "^9.0.0",
+    "typescript": "^3.0.1",
+    "ts-node": "^7.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^8.10.23"
+  }
+}
